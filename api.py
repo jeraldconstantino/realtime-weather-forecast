@@ -1,0 +1,1 @@
+key = "" # Insert your API key inside the string.

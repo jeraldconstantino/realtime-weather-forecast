@@ -10,7 +10,7 @@ from disaster_reminders import reminders
 from weather_builder import weather_helper
 from kivymd.toast import toast
 import calendar
-import api # make your own `api` file then create a variable for api key there.
+import api # put your api key on the `api` file.
 from kivy.uix.screenmanager import ScreenManager, Screen
 import webbrowser
 from kivy.uix.image import Image
@@ -95,7 +95,7 @@ class WeatherApp(MDApp):
 	# API Url Request
 	def open_weather_map_request(self, address, *args):
 		address = parse.quote(address)
-		api_key = api.key # Kindly replace it with your own api key generated from OpenWeatherMap website
+		api_key = api.key
 		url = "https://api.openweathermap.org/data/2.5/weather?q="+address+"&appid="+api_key		
 		UrlRequest(url, on_success = self.success, on_failure = self.failure, on_error = self.error)
 	
@@ -178,7 +178,7 @@ class WeatherApp(MDApp):
 	
 	# Requesting five-day forecast
 	def forecast_request(self, address, *args):
-		api_key = api.key # Kindly replace it with your own api key generated from OpenWeatherMap website
+		api_key = api.key
 		request = 'https://api.openweathermap.org/data/2.5/forecast?appid=' + api_key + '&q=' + address
 		UrlRequest(request, on_success = self.weather_retrieved, on_failure = self.failure, on_error = self.error)
 	
