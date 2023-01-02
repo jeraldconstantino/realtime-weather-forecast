@@ -11,7 +11,11 @@ A Python-based mobile application that utilized OpenWeatherMap API to acquire an
 - Provides some helpful information about Disaster management.
 
 ## Usage
-To use this project, make sure that you have [Git](https://git-scm.com/) and [Python](https://www.python.org/downloads/) (which includes PIP) installed in your machine. At the time I wrote this document (January, 2023), Python 3.10 (and below) is the only compatible version with the required dependencies. The latest Python version can't run this application due to incompatibility with the package (Kivy).    
+To use this project, make sure that you have [Git](https://git-scm.com/) and [Python](https://www.python.org/downloads/) (which includes PIP) installed in your machine. 
+
+At the time I wrote this document (January, 2023), Python 3.10 (and below) is the only compatible version with the required dependencies. The latest Python version can't run this application due to incompatibility with the Kivy package. 
+
+Kindly follow the instructions below:    
 1. Clone this repository
 ```
 $ git clone https://github.com/jeraldconstantino/realtime-weather-forecast
