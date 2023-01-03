@@ -16,7 +16,7 @@ To use this project, make sure that you have [Git](https://git-scm.com/) and [Py
 > **NOTE:** At the time I wrote this document (January, 2023), Python 3.10 (and below) is the only compatible version with the required dependencies. The latest Python version can't run this application due to incompatibility with the Kivy package. 
 
 Kindly follow the instructions below:    
-* Use `cd` command to go to your desired directory where you want to 
+* Use `cd` command to go to your desired directory where you want to save the repository.
 1. Clone this repository
 ```
 $ git clone https://github.com/jeraldconstantino/realtime-weather-forecast
