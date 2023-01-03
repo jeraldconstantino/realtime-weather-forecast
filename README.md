@@ -15,7 +15,6 @@ To use this project, make sure that you have [Git](https://git-scm.com/) and [Py
 
 > **NOTE:** At the time I wrote this document (January, 2023), Python 3.10 (and below) is the only compatible version with the required dependencies. The latest Python version can't run this application due to incompatibility with the Kivy package. 
 
-
 Kindly follow the instructions below:    
 * Use `cd` command to go to your desired directory where you want to 
 1. Clone this repository
@@ -36,3 +35,18 @@ $ pip install -r requirements.txt
 > **NOTE:** API key is unique to every users and must not be shared with the others. 
 6. Paste the API key within the [api.py](https://github.com/jeraldconstantino/realtime-weather-forecast/blob/master/api.py) file.
 7. Run the App.
+
+## Open for Contribution
+1. Clone repository and create a new branch: 
+```
+$ git clone https://github.com/jeraldconstantino/realtime-weather-forecast
+$ git checkout https://github.com/jeraldconstantino/realtime-weather-forecast -b name_for_new_branch
+```
+2. Make changes and test.
+3. Submit [Pull Request](https://github.com/jeraldconstantino/realtime-weather-forecast/pulls) with comprehensive description of changes.
+
+### Bug Reports & Feature Requests
+Kindly use the [issue tracker](https://github.com/jeraldconstantino/realtime-weather-forecast/issues) to report any bugs or file feature requests.
+
+## Personal Note:
+This App is created since 2020 using my Android device (because I have no Laptop or PC that time) with the software [PyDroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3&hl=en&gl=US) which can be downloaded from the Google Play Store. The App might not be responsive with the other screen size and the UI might not be the same as shown in [banner](https://github.com/jeraldconstantino/realtime-weather-forecast/blob/master/banner.png) above. However, the main functionality of this App to request weather data from the OpenWeatherMap is working, as well the features provided above.
